@@ -1,21 +1,7 @@
-// Factory Function
-function createCircle(radius) {
-    return {
-        radius,
-        draw() {
-            console.log("draw");
-        }
-    };
-}
+let x = {};
 
-const circle = createCircle(1);
-
-// Constructor Function
-function Circle(radius) {
-    this.radius = radius;
-    this.draw = function() {
-        console.log("draw");
-    }
-}
-
-const another = new Circle(1);
+// let x = new Object();
+// new String();        // "", '', ``
+// new Boolean();       // true, false
+// new Date();          // September 29 2020
+// new Number();        // 12534
